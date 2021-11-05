@@ -1,5 +1,5 @@
 function palindrome(str) {
-return str.toLowerCase().split('').reverse().join('')==str.toLowerCase();
+return str.toLowerCase().split('').reverse().join('')===str.toLowerCase();
 }
 
 console.log(palindrome('Kayak')); //true
